@@ -1,0 +1,144 @@
+{
+  "models": [
+    {
+      "alias": "qwen3-30b-a3b",
+      "repo": "Qwen/Qwen3-30B-A3B",
+      "series": "Qwen3"
+    },
+    {
+      "alias": "qwen3-235b-a22b",
+      "repo": "Qwen/Qwen3-235B-A22B",
+      "series": "Qwen3"
+    },
+    {
+      "alias": "deepseek-v3",
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "series": "DeepSeek-V3"
+    },
+    {
+      "alias": "glm-4.5",
+      "repo": "zai-org/GLM-4.5",
+      "series": "GLM-4.5"
+    },
+    {
+      "alias": "kimi-k2",
+      "repo": "moonshotai/Kimi-K2-Instruct",
+      "series": "Kimi-K2"
+    },
+    {
+      "alias": "minimax-m2",
+      "repo": "MiniMaxAI/MiniMax-M2",
+      "series": "MiniMax-M2"
+    },
+    {
+      "alias": "hy4-preview",
+      "repo": "tencent/Hy4-preview",
+      "series": "Hunyuan-Hy"
+    },
+    {
+      "alias": "deepseek-v3.2",
+      "repo": "deepseek-ai/DeepSeek-V3.2",
+      "series": "DeepSeek-V3.2"
+    },
+    {
+      "alias": "deepseek-v4-pro",
+      "repo": "deepseek-ai/DeepSeek-V4-Pro",
+      "series": "DeepSeek-V4"
+    },
+    {
+      "alias": "deepseek-v4-flash",
+      "repo": "deepseek-ai/DeepSeek-V4-Flash",
+      "series": "DeepSeek-V4"
+    },
+    {
+      "alias": "deepseek-v4.1-flash",
+      "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "series": "DeepSeek-V4.1"
+    },
+    {
+      "alias": "glm-5.1",
+      "repo": "zai-org/GLM-5.1",
+      "series": "GLM-5"
+    },
+    {
+      "alias": "glm-5.2",
+      "repo": "zai-org/GLM-5.2",
+      "series": "GLM-5"
+    },
+    {
+      "alias": "glm-5.3",
+      "repo": "zai-org/GLM-5.3",
+      "series": "GLM-5"
+    },
+    {
+      "alias": "glm-5.3-flash",
+      "repo": "zai-org/GLM-5.3-Flash",
+      "series": "GLM-5"
+    },
+    {
+      "alias": "qwen3.5-397b-a17b",
+      "repo": "Qwen/Qwen3.5-397B-A17B",
+      "series": "Qwen3.5"
+    },
+    {
+      "alias": "qwen3.5-122b-a10b",
+      "repo": "Qwen/Qwen3.5-122B-A10B",
+      "series": "Qwen3.5"
+    },
+    {
+      "alias": "qwen3.5-35b-a3b",
+      "repo": "Qwen/Qwen3.5-35B-A3B",
+      "series": "Qwen3.5"
+    },
+    {
+      "alias": "qwen3.5-27b",
+      "repo": "Qwen/Qwen3.5-27B",
+      "series": "Qwen3.5"
+    },
+    {
+      "alias": "qwen3.6-35b-a3b",
+      "repo": "Qwen/Qwen3.6-35B-A3B",
+      "series": "Qwen3.6"
+    },
+    {
+      "alias": "qwen3.6-27b",
+      "repo": "Qwen/Qwen3.6-27B",
+      "series": "Qwen3.6"
+    },
+    {
+      "alias": "qwen3.8-2.4t-a95b",
+      "repo": "Qwen/Qwen3.8-2.4T-A95B",
+      "series": "Qwen3.8"
+    },
+    {
+      "alias": "qwen3.8-27b",
+      "repo": "Qwen/Qwen3.8-27B",
+      "series": "Qwen3.8"
+    },
+    {
+      "alias": "qwen3.8-flash-next",
+      "repo": "Qwen/Qwen3.8-Flash-Next",
+      "series": "Qwen3.8"
+    },
+    {
+      "alias": "kimi-k3",
+      "repo": "moonshotai/Kimi-K3",
+      "series": "Kimi-K3"
+    },
+    {
+      "alias": "minimax-m3",
+      "repo": "MiniMaxAI/MiniMax-M3",
+      "series": "MiniMax-M3"
+    },
+    {
+      "alias": "minimax-m3.1-flash",
+      "repo": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "series": "MiniMax-M3"
+    },
+    {
+      "alias": "hy3",
+      "repo": "tencent/Hy3",
+      "series": "Hunyuan-Hy"
+    }
+  ]
+}

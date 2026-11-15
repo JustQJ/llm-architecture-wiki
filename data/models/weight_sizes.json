@@ -1,0 +1,505 @@
+{
+  "qwen3-30b-a3b": [
+    {
+      "repo": "Qwen/Qwen3-30B-A3B",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 61066575648,
+      "GB": 61.1,
+      "files": 16
+    },
+    {
+      "repo": "Qwen/Qwen3-30B-A3B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 32449487768,
+      "GB": 32.4,
+      "files": 7
+    }
+  ],
+  "qwen3-235b-a22b": [
+    {
+      "repo": "Qwen/Qwen3-235B-A22B",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 470191875096,
+      "GB": 470.2,
+      "files": 118
+    },
+    {
+      "repo": "Qwen/Qwen3-235B-A22B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 239044149304,
+      "GB": 239.0,
+      "files": 48
+    }
+  ],
+  "deepseek-v3": [
+    {
+      "repo": "deepseek-ai/DeepSeek-V3",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 688586727753,
+      "GB": 688.6,
+      "files": 163
+    }
+  ],
+  "glm-4.5": [
+    {
+      "repo": "zai-org/GLM-4.5",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 716681196672,
+      "GB": 716.7,
+      "files": 93
+    },
+    {
+      "repo": "zai-org/GLM-4.5-FP8",
+      "status": "OK",
+      "dtype": "quant(float-quantized)",
+      "safetensors_bytes": 361288184632,
+      "GB": 361.3,
+      "files": 93
+    }
+  ],
+  "kimi-k2": [
+    {
+      "repo": "moonshotai/Kimi-K2-Instruct",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 1029190981272,
+      "GB": 1029.2,
+      "files": 61
+    },
+    {
+      "repo": "moonshotai/Kimi-K2-Instruct-FP8",
+      "status": "MISSING",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ],
+  "minimax-m2": [
+    {
+      "repo": "MiniMaxAI/MiniMax-M2",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 230134264792,
+      "GB": 230.1,
+      "files": 130
+    },
+    {
+      "repo": "MiniMaxAI/MiniMax-M2-BF16",
+      "status": "MISSING",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ],
+  "hy4-preview": [
+    {
+      "repo": "tencent/Hy4-preview",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 1559983809380,
+      "GB": 1560.0,
+      "files": 131
+    },
+    {
+      "repo": "tencent/Hy4-preview-FP8",
+      "status": "OK",
+      "dtype": "quant(modelopt)",
+      "safetensors_bytes": 813766152348,
+      "GB": 813.8,
+      "files": 130
+    }
+  ],
+  "hy3": [
+    {
+      "repo": "tencent/Hy3",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 597578239288,
+      "GB": 597.6,
+      "files": 99
+    },
+    {
+      "repo": "tencent/Hy3-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 299889838946,
+      "GB": 299.9,
+      "files": 101
+    }
+  ],
+  "deepseek-v3.2": [
+    {
+      "repo": "deepseek-ai/DeepSeek-V3.2",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 689483049129,
+      "GB": 689.5,
+      "files": 163
+    }
+  ],
+  "deepseek-v4-pro": [
+    {
+      "repo": "deepseek-ai/DeepSeek-V4-Pro",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 864721029744,
+      "GB": 864.7,
+      "files": 64
+    },
+    {
+      "repo": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 892744322880,
+      "GB": 892.7,
+      "files": 66
+    }
+  ],
+  "deepseek-v4-flash": [
+    {
+      "repo": "deepseek-ai/DeepSeek-V4-Flash",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 159617149040,
+      "GB": 159.6,
+      "files": 46
+    },
+    {
+      "repo": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 166886535336,
+      "GB": 166.9,
+      "files": 48
+    }
+  ],
+  "deepseek-v4.1-flash": [
+    {
+      "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 510296708312,
+      "GB": 510.3,
+      "files": 48
+    },
+    {
+      "repo": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 510296708312,
+      "GB": 510.3,
+      "files": 48
+    }
+  ],
+  "glm-5.1": [
+    {
+      "repo": "zai-org/GLM-5.1",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 1507735819176,
+      "GB": 1507.7,
+      "files": 282
+    },
+    {
+      "repo": "zai-org/GLM-5.1-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 756177645648,
+      "GB": 756.2,
+      "files": 142
+    }
+  ],
+  "glm-5.2": [
+    {
+      "repo": "zai-org/GLM-5.2",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 1506667387408,
+      "GB": 1506.7,
+      "files": 282
+    },
+    {
+      "repo": "zai-org/GLM-5.2-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 755632050320,
+      "GB": 755.6,
+      "files": 141
+    }
+  ],
+  "glm-5.3": [
+    {
+      "repo": "zai-org/GLM-5.3",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 755632050320,
+      "GB": 755.6,
+      "files": 141
+    },
+    {
+      "repo": "zai-org/GLM-5.3-BF16",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 1506667387408,
+      "GB": 1506.7,
+      "files": 282
+    }
+  ],
+  "glm-5.3-flash": [
+    {
+      "repo": "zai-org/GLM-5.3-Flash",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 328337455672,
+      "GB": 328.3,
+      "files": 62
+    },
+    {
+      "repo": "zai-org/GLM-5.3-Flash-BF16",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 642652070880,
+      "GB": 642.7,
+      "files": 120
+    }
+  ],
+  "qwen3.5-397b-a17b": [
+    {
+      "repo": "Qwen/Qwen3.5-397B-A17B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 806796241352,
+      "GB": 806.8,
+      "files": 94
+    },
+    {
+      "repo": "Qwen/Qwen3.5-397B-A17B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 406151669464,
+      "GB": 406.2,
+      "files": 94
+    },
+    {
+      "repo": "Qwen/Qwen3.5-397B-A17B-GPTQ-Int4",
+      "status": "OK",
+      "dtype": "GPTQ",
+      "safetensors_bytes": 235708083992,
+      "GB": 235.7,
+      "files": 94
+    }
+  ],
+  "qwen3.5-122b-a10b": [
+    {
+      "repo": "Qwen/Qwen3.5-122B-A10B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 250173250864,
+      "GB": 250.2,
+      "files": 39
+    },
+    {
+      "repo": "Qwen/Qwen3.5-122B-A10B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 127163011832,
+      "GB": 127.2,
+      "files": 39
+    },
+    {
+      "repo": "Qwen/Qwen3.5-122B-A10B-GPTQ-Int4",
+      "status": "OK",
+      "dtype": "GPTQ",
+      "safetensors_bytes": 78864326320,
+      "GB": 78.9,
+      "files": 39
+    }
+  ],
+  "qwen3.5-35b-a3b": [
+    {
+      "repo": "Qwen/Qwen3.5-35B-A3B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 71903878016,
+      "GB": 71.9,
+      "files": 14
+    },
+    {
+      "repo": "Qwen/Qwen3.5-35B-A3B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 37463724680,
+      "GB": 37.5,
+      "files": 14
+    },
+    {
+      "repo": "Qwen/Qwen3.5-35B-A3B-GPTQ-Int4",
+      "status": "OK",
+      "dtype": "GPTQ",
+      "safetensors_bytes": 24419939760,
+      "GB": 24.4,
+      "files": 14
+    }
+  ],
+  "qwen3.5-27b": [
+    {
+      "repo": "Qwen/Qwen3.5-27B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 55563022432,
+      "GB": 55.6,
+      "files": 11
+    },
+    {
+      "repo": "Qwen/Qwen3.5-27B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 30866882312,
+      "GB": 30.9,
+      "files": 11
+    },
+    {
+      "repo": "Qwen/Qwen3.5-27B-GPTQ-Int4",
+      "status": "OK",
+      "dtype": "GPTQ",
+      "safetensors_bytes": 30235264416,
+      "GB": 30.2,
+      "files": 11
+    }
+  ],
+  "qwen3.6-35b-a3b": [
+    {
+      "repo": "Qwen/Qwen3.6-35B-A3B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 71903776776,
+      "GB": 71.9,
+      "files": 26
+    },
+    {
+      "repo": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 37463662160,
+      "GB": 37.5,
+      "files": 42
+    }
+  ],
+  "qwen3.6-27b": [
+    {
+      "repo": "Qwen/Qwen3.6-27B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 55563006400,
+      "GB": 55.6,
+      "files": 15
+    },
+    {
+      "repo": "Qwen/Qwen3.6-27B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 30866866928,
+      "GB": 30.9,
+      "files": 66
+    }
+  ],
+  "qwen3.8-2.4t-a95b": [
+    {
+      "repo": "Qwen/Qwen3.8-2.4T-A95B",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 4892365649336,
+      "GB": 4892.4,
+      "files": 213
+    },
+    {
+      "repo": "Qwen/Qwen3.8-2.4T-A95B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 2496102697232,
+      "GB": 2496.1,
+      "files": 213
+    }
+  ],
+  "qwen3.8-27b": [
+    {
+      "repo": "Qwen/Qwen3.8-27B",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 55563006776,
+      "GB": 55.6,
+      "files": 18
+    },
+    {
+      "repo": "Qwen/Qwen3.8-27B-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 30866866928,
+      "GB": 30.9,
+      "files": 66
+    }
+  ],
+  "qwen3.8-flash-next": [
+    {
+      "repo": "Qwen/Qwen3.8-Flash-Next",
+      "status": "OK",
+      "dtype": "?",
+      "safetensors_bytes": 360000192888,
+      "GB": 360.0,
+      "files": 131
+    },
+    {
+      "repo": "Qwen/Qwen3.8-Flash-Next-FP8",
+      "status": "OK",
+      "dtype": "FP8",
+      "safetensors_bytes": 185523317458,
+      "GB": 185.5,
+      "files": 131
+    }
+  ],
+  "kimi-k3": [
+    {
+      "repo": "moonshotai/Kimi-K3",
+      "status": "OK",
+      "dtype": "MXFP4",
+      "safetensors_bytes": 1560936091448,
+      "GB": 1560.9,
+      "files": 96
+    },
+    {
+      "repo": "moonshotai/Kimi-K3-BF16",
+      "status": "MISSING",
+      "error": "HTTP Error 401: Unauthorized"
+    }
+  ],
+  "minimax-m3": [
+    {
+      "repo": "MiniMaxAI/MiniMax-M3",
+      "status": "OK",
+      "dtype": "BF16",
+      "safetensors_bytes": 854176398808,
+      "GB": 854.2,
+      "files": 59
+    },
+    {
+      "repo": "MiniMaxAI/MiniMax-M3-MXFP8",
+      "status": "OK",
+      "dtype": "MXFP8",
+      "safetensors_bytes": 443749077256,
+      "GB": 443.7,
+      "files": 31
+    }
+  ],
+  "minimax-m3.1-flash": [
+    {
+      "repo": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "status": "OK",
+      "dtype": "MXFP8",
+      "safetensors_bytes": 252418287306,
+      "GB": 252.4,
+      "files": 49
+    }
+  ]
+}
