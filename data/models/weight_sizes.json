@@ -501,5 +501,15 @@
       "GB": 252.4,
       "files": 49
     }
+  ],
+  "kimi-k3.1-pro": [
+    {
+      "repo": "moonshotai/Kimi-K3.1-Pro",
+      "status": "OK",
+      "dtype": "MXFP4",
+      "safetensors_bytes": 1561293160568,
+      "GB": 1561.3,
+      "files": 96
+    }
   ]
 }

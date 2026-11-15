@@ -35,7 +35,7 @@ flowchart TD
     L0 --> MID["Layer 1-77（77 层）<br/>MoE：256 + 1 专家，Top-8"]
     MID --> FN["Final RMSNorm"]
     FN --> HEAD["LM Head（untied）<br/>6144 × 120832"]
-    HEAD -.->. MTP["MTP 草稿层 × 1<br/>约 10B（投机解码可选）"]
+    HEAD -.-> MTP["MTP 草稿层 × 1<br/>约 10B（投机解码可选）"]
 
     subgraph LAYER["MoE 层内部（iHC 4 条残差流）"]
         direction TB

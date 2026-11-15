@@ -134,6 +134,19 @@ flowchart LR
 | 精度 | FP8 blockwise 128×128 | MXFP4 权重 + MXFP8 激活（QAT） |
 | MTP | 0 | 0 |
 
+## K3.1 Pro：MLA 层加装 DSA（2026-11-02）
+
+[Kimi-K3.1-Pro](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)：官方口径 **「Post-trained from Kimi K3」**（数百下游域的大规模联合 RL，K3.1 系列首个模型），骨架与 K3 逐字段一致——93 层 / 896+2 Top-16（LatentMoE 3584）/ SiTU / AttnRes 12 / 1M ctx / 无 MTP。config 的唯一结构增量是**新增 `dsa_config`：给 24 层 Gated MLA 配上 DSA 稀疏检索**：
+
+- `dsa_layers = [4, 8, …, 92, 93]`——与 `linear_attn_config.full_attn_layers` 一一对应，K3 的 24 个 full-attn 层**原位加装** indexer；
+- `index_topk 2048`，indexer 32 heads × 128 维（`index_rope_dim 0`：indexer 无 RoPE，`index_k_norm layernorm`）；
+- `index_topk_freq 1`——每层独立计算 top-k，无 IndexShare 式跨层复用；
+- 模型类换为 `KimiK31ForConditionalGeneration`（`model_type kimi_k31`，remote code 新版），多模态 image-text-to-text；
+- **KV Cache**：主 cache 口径不变（1.41 MiB/token + 222 MiB state）；新增 indexer K cache `4096 元素/token/层 × 24 层`（FP8 ≈ 96 KiB/token，推算；实现口径待核实，类比 [V3.2](/deepseek/deepseek-v3.2/) 的 FP8 indexer cache）；
+- **权重**：同为 MXFP4（compressed-tensors `mxfp4-pack-quantized`）· **1561.3 GB**（96 分片实测，`data/models/weight_sizes.json`）；license 自定义 `kimi-k3.1-pro`。
+
+与 [GLM-5.3](/glm/glm-5.3/) 的「同底座 + 纯后训练」不同：K3.1 底座未变但携带 indexer 结构增量，定位类似 V3.2 之于 V3 的注意力稀疏化改装。
+
 ## 演进
 
 | 模型 | 时间 | 说明 |
@@ -143,6 +156,7 @@ flowchart LR
 | Kimi-Linear-48B-A3B | 2025-10 | **混合线性注意力试验田**（KDA 前身） |
 | Kimi-K2.5 / K2.6 / K2.7-Code | 2026-01 / 04 / 06 | K2 架构迭代（K2.7-Code 为代码特化） |
 | **Kimi-K3** | **2026-06** | **KDA 上旗舰：2.8T/104B，AttnRes + LatentMoE + SiTU + MXFP4，1M ctx，原生多模态** |
+| Kimi-K3.1-Pro | 2026-11 | K3 后训练升级 + **24 层 Gated MLA 加装 DSA**（top-2048，每层独立 indexer），权重仍 MXFP4 |
 
 ## 原始资料
 
@@ -150,4 +164,5 @@ flowchart LR
 - [Kimi-K3 技术报告（GitHub MoonshotAI/Kimi-K3）](https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf)
 - [技术博客](https://www.kimi.com/blog/kimi-k3)
 - [vLLM 部署 recipe](https://recipes.vllm.ai/moonshotai/Kimi-K3)
+- [Kimi-K3.1-Pro 仓库](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)（2026-11-02；本地快照 `data/models/raw/kimi-k3.1-pro.json`）
 - 本地 config 快照：`data/models/raw/kimi-k3.json`；建模源码：HF 仓库 `modeling_kimi_linear.py`

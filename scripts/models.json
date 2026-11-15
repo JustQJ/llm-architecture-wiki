@@ -139,6 +139,11 @@
       "alias": "hy3",
       "repo": "tencent/Hy3",
       "series": "Hunyuan-Hy"
+    },
+    {
+      "alias": "kimi-k3.1-pro",
+      "repo": "moonshotai/Kimi-K3.1-Pro",
+      "series": "Kimi-K3"
     }
   ]
 }
